@@ -1,0 +1,5 @@
+LOAD DATA INFILE 'F:/Users/DanielTuan/Documents/IPA 2017/workspace/ipa_2017/Fehler0.csv' INTO TABLE log_db.logfiles
+ CHARACTER SET UTF8
+ FIELDS ENCLOSED BY '"'
+ TERMINATED BY ','
+ LINES TERMINATED BY '\r\n';
